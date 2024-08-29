@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { createNews } from "../api";
+import { createNews } from "../../api";
 import FileInput from "./FileInput";
-import RatingInput from "./RatingInput";
+import RatingInput from "../RatingInput";
 import "./NewsForm.css";
 
 const INITIAL_VALUES = {
